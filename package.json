@@ -1,0 +1,26 @@
+{
+  "name": "cnr",
+  "version": "1.1.1",
+  "description": "check npm register quick and Individual",
+  "main": "index.js",
+  "bin": {
+    "cnr": "./index.js"
+  },
+  "homepage": "https://gitee.com/wu-yu-pei/cnr",
+  "keywords": [
+    "npm",
+    "register",
+    "镜像",
+    "切换",
+    "check",
+    "wuyupei",
+    "cnr"
+  ],
+  "author": "wuyupei",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
+}

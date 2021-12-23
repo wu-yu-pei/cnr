@@ -1,0 +1,46 @@
+[
+  {
+    "name": "features",
+    "message": "Check the origin:",
+    "pageSize": 10,
+    "type": "list",
+    "choices": [
+      {
+        "name": "npm ---------- https://registry.npmjs.org/",
+        "value": "https://registry.npmjs.org/",
+        "short": "npm",
+        "checked": true
+      },
+      {
+        "name": "yarn --------- https://registry.yarnpkg.com/",
+        "value": "https://registry.yarnpkg.com/",
+        "short": "yarn",
+        "checked": false
+      },
+      {
+        "name": "tencent ------ https://mirrors.cloud.tencent.com/npm/",
+        "value": "https://mirrors.cloud.tencent.com/npm/",
+        "short": "tencent",
+        "checked": false
+      },
+      {
+        "name": "cnpm --------- https://r.cnpmjs.org/",
+        "value": "https://r.cnpmjs.org/",
+        "short": "cnpm",
+        "checked": false
+      },
+      {
+        "name": "taobao ------- https://registry.npmmirror.com/",
+        "value": "https://registry.npmmirror.com/",
+        "short": "taobao",
+        "checked": false
+      },
+      {
+        "name": "npmMirror ---- https://skimdb.npmjs.com/registry/",
+        "value": "https://skimdb.npmjs.com/registry/",
+        "short": "npmMirror",
+        "checked": false
+      }
+    ]
+  }
+]
