@@ -1,6 +1,6 @@
 ### 快速切换 npm 镜像
 
-> cnr (checkout npm registry)
+> cnr (checkout npm source)
 
 #### 安装
 
@@ -10,31 +10,31 @@ npm install cnr -g
 
 #### 基本使用
 
-- 切换 npm registry
+- 切换 npm source
 
   ```shell
     cnr c
   ```
 
-- 显示所有 registry
+- 显示所有 source
   ```shell
     cnr ls
   ```
 #### 定制使用
-- 自定义 registry
+- 自定义 source
   ```shell
     cnr add <name> <url>
   ```
-  自定义自己公司的registry
+  自定义自己公司的source
   使用实例:
   cnr add taobao https://registry.npmmirror.com/
 _______________________________________________________________
 
-- 删除 registry
+- 删除 source
   ```shell
     remove <name>
   ```
-  删除不用的registry
+  删除不用的source
   使用实例:
   cnr remove taobao
 
