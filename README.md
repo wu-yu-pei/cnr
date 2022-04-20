@@ -1,6 +1,6 @@
 ### 快速切换 npm 镜像
 
-> cnr (checkout npm registry)
+> cnr (checkout npm source)
 
 #### 安装
 
